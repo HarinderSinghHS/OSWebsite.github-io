@@ -1,0 +1,154 @@
+
+.wrap {
+	
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+ 
+}
+
+.navibar
+{
+    background: url("../images/windows/1.jpg")no-repeat center center;
+    height: 87%;
+     background-size: cover;
+    position:relative;
+
+}
+
+.win_container
+{
+    margin:2%; 
+}
+
+.win_container h1
+{
+    border-top: 2px groove gray;
+    box-shadow: 4px 0 1px #888888;
+}
+
+.div1 {
+    float: right;
+    width: 600px;
+    height: 50px;
+    margin: 10px;/*
+  color: #804600;*/
+  font-size: 15px;
+   -webkit-animation: mymove 5s infinite;
+   font-family: "Arial Black", Gadget, sans-serif;
+    
+}
+
+.div2 {
+    float: left;
+    width: 600px;
+    height: 50px;
+    margin: 10px;/*
+  color: #808080;*/
+ font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  }
+  
+.div3 {
+    float: left;
+    width: 400px;
+    height: 50px;
+    margin: 10px;/*
+  color: #804600;*/
+  font-size: 10px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.navibar ul {
+
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #1692D8;
+}
+
+.navibar li {
+    float: left;
+}
+
+
+ li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navibar li a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFFFAB;
+    color: black;
+}
+
+.navibar li.dropdown {
+    display: inline-block;
+}
+
+
+.Windows-c {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Windows-c a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.Windows-c a:hover 
+{
+    background-color: #f1f1f1;
+
+}
+
+.dropdown:hover .Windows-c
+{
+    display: block;
+}
+
+
+
+
+
+
+
+
+table#t01 {
+    width: 100%; 
+    background-color: #f1f1c1;
+	margin: bottom;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+
+}table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}th, td {
+    padding: 15px;
+}th {
+    text-align: left;
+}table {
+    border-spacing: 5px;
+}
+

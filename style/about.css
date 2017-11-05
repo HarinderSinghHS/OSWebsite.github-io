@@ -1,0 +1,70 @@
+#content
+{
+	height:800px;
+	padding-left: 90px;
+}
+
+.about_wrap
+{
+	width: 200px;
+ 	height: 200px;
+	margin: 2em 0;
+	/*border: 2px solid black;*/
+ 	float: left;
+ }
+.about_wrap1
+{
+	width: 150px;
+    height: 200px;
+    margin: 2em 0;
+    margin-right: 6em;
+    background-color: #E2E2E2;
+    /* padding-top: 20px; */
+    padding: 0px 20px;
+   /* border: 2px solid black;*/
+    float: left;
+    /* text-align: center;*/
+}
+
+.about_wrap1 p
+{
+	margin: 0 auto;
+
+}
+
+.about_wrap1 h4
+{
+	margin: 10px 0 15px 0;
+}
+
+.head_picture
+{
+	   background: url("../images/about/conatc.jpg")no-repeat center center;
+    height: 87%;
+     background-size: cover;
+    position:relative;
+
+}
+
+.head_picture h1
+{
+	padding: 80px;
+	margin: 0px;
+	text-align: center;	
+	    font-size: 3.5em;
+	    color: white;
+    font-family: 'Oleo Script', cursive
+}
+
+.contact
+{
+	text-align: center;
+	text-decoration:underline; 
+	font-size: 120%;
+	margin-top:5px; 
+}
+
+.contact img
+{
+	margin: 8px 9.7px 10px 0;
+}

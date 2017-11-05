@@ -1,0 +1,217 @@
+
+.tm-page-content { 
+	margin-top: 35px; 
+	height:100%;
+	width:100%;
+}
+
+.tm-section {
+	background-position: bottom right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+#tm-section-1 {
+	padding-top:20px;	
+	    padding-left: 2%;
+	height:440px;
+	background-color:#DEB887;
+	text-align:justify;
+	
+}
+#tm-section-2 {
+	height:440px;
+}
+#tm-section-3 {	
+	height:440px;
+	background-image: url("../images/ubuntu/ubuntuback.jpg"); 
+}
+#tm-section-4 {	
+	height:440px;
+	
+}
+#tm-section-5 {	
+	height:440px;
+	background-color:#aebf8c;
+	
+}
+#tm-section-6 {	
+	height:440px;
+	background-image: url("../images/ubuntu/strip-bg-04.jpg"); 
+}
+#tm-section-7 {
+	padding-top:20px;
+	padding-bottom:20px;
+	height:300px;
+	width:100%;	 
+}
+
+
+.tm-section-header {
+	font-weight: 300;
+	margin-top:7px;
+	margin-bottom: 0px;
+}
+
+.tm-white-curve-left,
+.tm-white-curve-right {
+	color: black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+/* Fix for Safari 9.0.3 on Mac */
+.tm-white-curve-right {	
+	margin-right: -1px; 
+
+	}
+
+.tm-white-curve-left,
+.tm-white-curve-right {
+	padding-left: 0;
+}
+
+.tm-white-curve-left-rec,
+.tm-white-curve-left-circle,
+.tm-white-curve-right-rec,
+.tm-white-curve-right-circle {
+	position: absolute;
+	background-color: white;	
+	height: 70%;
+	
+}
+
+.tm-white-curve-left-rec,
+.tm-white-curve-right-rec 
+{
+	width: 0px;
+
+}
+
+.tm-white-curve-left-circle {
+    width: 40%;
+    right: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 345px;
+
+    margin-top: 10px;
+
+    margin-right: 51.1%;
+}
+.tm-white-curve-right > .tm-white-curve-text {
+    margin-right: 0;
+    margin-left: auto;
+   /* width: 330px;*/
+    margin-left: 160px;
+}
+
+.tm-white-curve-text {
+	padding-bottom: 15px;
+    padding-right: 30px;
+    justify-content: center;
+}
+
+.tm-white-curve-right-rec {
+	padding-right: 0;
+	right: 0;
+}
+	
+.video{
+	margin: 2px 0px;
+		height:438px;
+}
+.image1{
+	
+	margin-left:30px;
+	padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+
+
+.contact-form{
+	padding:70px;
+	padding-right: 196px;
+    padding-left: 100px;
+}
+
+.tm-white-curve-right-circle {
+    width: 579px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-left: 4.2%;
+    margin-top: 10px;
+    height: 330px;
+    padding-bottom: 10px;
+}
+
+/* .tm-white-curve-right-circle { */
+	/* width: 520px; */
+	/* border-top-left-radius: 50%; */
+	/* border-bottom-left-radius: 50%; */
+/* } */
+
+.tm-white-curve-text {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding-left: 20px;
+/*	width: 100%;*/
+	text-align: justify;
+	position:relative;
+	z-index: 100;
+}
+
+.blue-text { 
+	color: #00599a; 
+}
+
+.red-text{
+	color: #e60000;
+}
+.white-text{
+	color: #FFFFFF;
+}
+
+.tm-home-right {
+	margin-top:10px;
+	padding-top:50px;/*
+	padding-left:100px;*/
+	margin-left:90px;
+	margin-right:60px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+.tm-flex-center {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.thin-font { 
+	font-weight: 300; 
+}
+
+.tm-table
+{
+	margin-left: 300px;
+}

@@ -1,0 +1,316 @@
+html
+{
+	margin: 0 auto;
+	font-family: "Arial";
+}
+
+body
+{
+	background-color: #F0F2F3;
+	margin: 0 80px;
+	padding: 40px;
+
+	/*border: 2px solid blue;*/
+}
+
+.logo_wrap
+{
+	/*border: 2px solid blue;*/
+	width: 12%;
+	margin-left: 1.5%;
+	padding-bottom: 0.5%;
+	/*-webkit-box-shadow: 5px 10px 5px 0px #999999;
+	-moz-box-shadow: 5px 10px 5px 0px #999999;
+	box-shadow: 5px 0px 40px 0px #999999;*/
+
+}
+
+.small_nav
+{
+	padding:10px;
+	
+}
+
+.in_nav
+{
+	text-decoration: none;
+	color: maroon;
+}
+
+#content
+{
+	/*padding-left:20px;*/
+	margin-bottom: 20px;
+}
+
+.box_shade
+{
+	-webkit-box-shadow: 5px 10px 5px 0px #999999;
+	-moz-box-shadow: 5px 10px 5px 0px #999999;
+	box-shadow: 5px 10px 40px 0px #999999;
+	border: 1px solid #DADCDD;
+}
+
+.nav_shade
+{
+	background-color: #262626;
+	-webkit-box-shadow: 5px 10px 5px 0px #999999;
+	-moz-box-shadow: 5px 10px 5px 0px #999999;
+	box-shadow: 5px 10px 40px 0px #999999;
+	
+}
+
+
+#nav_container
+{
+/*	text-decoration: none;*/
+/*	float: right;*/
+	padding: 0px;
+	margin: 10px 0 0 0 ;
+	/*margin-top: 6.2%;*/
+	list-style-type: none;
+    overflow: hidden;
+}
+
+
+#nav_container li {
+    float: left;
+     /*
+    border: 2px solid #262626;*/
+     background-color: #262626;
+
+}
+
+#nav_container li a {
+	text-decoration: none;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 18px 16px;
+    
+}
+
+#nav_container li a:hover 
+{
+   
+    background-color: gray;
+    color: white;
+}
+
+
+#nav_container li a:active 
+{
+   background-color: black	;
+}
+
+.hov
+{
+	background-color:#F26E26 ;
+	color: white;	
+}
+
+/*.right
+{
+	float: right;
+}
+*/
+#head_pic
+{
+	background-color: #FFFFFF;
+	margin-right: 1px;
+	margin-bottom: 20px;
+	height:295px;
+	/*padding-bottom: 30px;*/
+}
+
+#asi_wrap
+{
+/*	border: 2px solid blue;*/
+	margin-bottom: 2%;
+ 	padding-top: 2%;/*
+ 	padding-bottom: 2%;*/
+
+}
+
+
+
+.slider_container
+{
+	margin-right:0px;
+	width: 58%;
+	background-color: #262626;
+	overflow: hidden;
+	text-align: center;
+	/*padding-left: 75px;
+	padding-top: 42px;
+	padding-bottom: 0.8%;*/
+
+}
+
+aside .bar
+{
+	
+	float: right;
+	background-color: #262626;
+	/*border: 2px solid white;*/
+	padding: 1%;
+	margin-top: 2.1%;
+	margin-bottom: 2%;	
+	width: 40%;
+}
+
+
+#sub_bar
+{
+	
+	flex-wrap: wrap;
+	margin: 0.9%;
+	border: 2px solid white;
+	height: 25%;
+	width: 25%;
+	padding: 10.7%;
+
+}
+
+
+
+@keyframes slidy 
+{
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+#slider 
+{
+ overflow: hidden; 
+}
+
+
+#slider figure img 
+{ 
+	width: 20%; 
+	float: left; 
+}
+
+
+#slider figure 
+{ 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+
+.image
+{
+	padding-left: 8%;
+	padding-bottom: 2%;
+}
+
+#sec_wrap
+{
+	padding: 2% 5% ;
+	margin-bottom: 2%;
+/*	height: 1000px;*/
+}
+
+#para
+{
+	float: right;
+	width: 45%;
+	text-align: justify;
+	margin-bottom: 2%;
+	color: #575756;
+}
+
+#foot_wrap
+{	
+	font-size-adjust: 1em;
+	text-align: right;
+	padding: 0 2%;
+	background-color: #262626;
+	color: gray;
+}
+
+.sitemap_container
+{
+	background-image: url("../images/home/sitemapback.jpg"); 
+	background-size: 100%;
+	
+}
+
+.smdiv
+{	
+ 
+	/*border: 2px solid black;*/
+	margin-left: 40%;
+	margin-right: 40%;
+	border-radius: 10px;
+	padding: 4px;
+	text-align:center; 
+	background-color: #F9B753;
+	color:white;
+}
+
+.smlist a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.smlist ul
+{
+	padding: 0px; 
+	font-family: 'Poppins', sans-serif;
+	text-align:center;
+	list-style: none;
+	overflow: hidden;
+	/*color: white;*/
+}
+
+
+.smlist ul>li
+{
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 10px; 
+	border-radius: 6px;
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*border: 2px solid black;*/
+
+}
+.smlist ul li ul>li
+{
+	float: initial;
+	margin-left: 10px;
+	padding: 4px 10px 4px 4px;
+	border: 2px solid #C0C0C0;
+	background-color:#CCCCCC; 
+}
+.smlist ul li ul ul>li
+{
+	float: initial;
+	padding: 0px;
+	margin-left: 	30px;
+	padding: 4px 10px 4px 4px;
+	border: 2px solid yellow;
+	background-color:	#FFFF99; 
+}
+
+.clearfix {
+    clear:both;/*
+    overflow: ;*/
+    }
